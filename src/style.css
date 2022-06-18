@@ -1,0 +1,93 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+.body{
+    background-color: #262626;
+    background:url("/public/images/logoor.jpeg") no-repeat fixed center;
+    background-size: cover;
+}
+.services{
+    background:url("/public/images/log.png") no-repeat fixed center;
+    background-size: cover;
+    /*@apply 
+    bg-no-repeat
+    bg-cover
+    backdrop-blur-md
+    min-h-screen
+    w-auto*/
+}
+.button{
+    position: relative;
+    background: #444;
+    color: #BFA65A;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 20px 30px;
+    transition: 0.5s;
+    margin: 20px;
+    border: 2px solid #BFA65A;
+    border-radius: 10px;
+}
+
+.button:hover{
+    letter-spacing: 0.25em;
+    background: var(--clr);  
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+.button::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+.button span {
+    position: relative;
+    z-index: 1;
+}
+.button i{
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+.button i::before{
+    content:'';
+    position: absolute;
+    border: 2px solid  var(--clr);
+    top: -3.5px;
+    left: 80%;
+    width: 10px;
+    height: 5px;
+    border-radius: 100%;
+    background: #27282c;
+    transform: translate(-50%);
+    transition: 0.5s
+}
+.button:hover i::before{
+    width: 20px;
+    left: 20%;
+}
+.button i::after{
+    content:'';
+    position: absolute;
+    border: 2px solid  var(--clr);
+    bottom: -3.5px;
+    left: 20%;
+    width: 10px;
+    height: 5px;
+    border-radius: 100%;
+    background: #27282c;
+    transform: translate(-50%);
+    transition: 0.5s
+}
+.button:hover i::after{
+    width: 20px;
+    left: 80%;
+}
+ header{
+    z-index: 999;
+ }
