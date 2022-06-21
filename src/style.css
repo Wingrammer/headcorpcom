@@ -5,11 +5,11 @@
 @tailwind utilities;
 body{
     background-color: #262626;
-    background:url("/public/images/logoor.jpeg") no-repeat fixed center;
+    background:url("./images/logoor.jpeg") no-repeat fixed center;
     background-size: cover;
 }
 .services{
-    background:url("/public/images/log.png") no-repeat fixed center;
+    background:url("./images/log.png") no-repeat fixed center;
     background-size: cover;
     /*@apply 
     bg-no-repeat
