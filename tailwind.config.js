@@ -13,6 +13,9 @@ module.exports = {
       blacka:'#262626',
       transparent:'transparent'
     },
+    fontFamily: {
+     roboto: 'Roboto'
+    },
     extend: {},
     backdropBlur: {
       flou: '20px',
