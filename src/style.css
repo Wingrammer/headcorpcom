@@ -122,17 +122,26 @@ body{
 .partners{
     margin-bottom: -50px;
 }
+.wave {
+    background: radial-gradient(
+      circle closest-corner at center 125px,
+      transparent,
+      rgb(255 255 255 / 0.05) 200px
+    ) no-repeat;
+    text-align: left;
+
+}
 h1 {
-    background: -webkit-linear-gradient(90deg, var(--color), #444);
+    /*background: -webkit-linear-gradient(90deg, var(--color), #444);*/
     text-transform: uppercase;
-    /*background: radial-gradient(
+    background: radial-gradient(
         circle farthest-corner at center center,
-        #ccc,
-        #333
-    ) no-repeat;*/
+        #444, var(--color)
+    ) no-repeat;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 .no-scrollbar::-webkit-scrollbar {
     display: none;
