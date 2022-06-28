@@ -172,13 +172,14 @@ h1 {
         position:fixed;
         width: 100%;
         height: 100vh;
-        background: linear-gradient(#262626, #BFA65A);
+        background: #262626;
         color: #BFA65A;
         z-index: 30;
-        top: 120px;
+        top: 130px;
         left: 0;
         padding: 40px 20px;
         font-size: xx-large;
+        opacity: 95%;
     }
     .switch{
        opacity: 0;
