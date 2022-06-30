@@ -661,12 +661,8 @@ video {
   height: auto;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-1\/2 {
-  height: 50%;
+.h-full {
+  height: 100%;
 }
 
 .h-3 {
@@ -679,10 +675,6 @@ video {
 
 .h-8 {
   height: 2rem;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .w-full {
@@ -1050,7 +1042,7 @@ video {
 
 body{
   background-color: #262626;
-  background:url("./images/logoor.jpeg") no-repeat fixed center;
+  background:url("./images/logoFond.jpg") no-repeat fixed center;
   background-size: cover;
 }
 
@@ -1452,6 +1444,11 @@ header{
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:text-8xl {

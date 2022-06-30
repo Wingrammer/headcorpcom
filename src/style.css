@@ -5,7 +5,7 @@
 @tailwind utilities;
 body{
     background-color: #262626;
-    background:url("./images/logoor.jpeg") no-repeat fixed center;
+    background:url("./images/logoFond.jpg") no-repeat fixed center;
     background-size: cover;
 }
 .services{
